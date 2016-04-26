@@ -10,17 +10,17 @@ This help file introduces fundamental concepts, offers concrete advice for
 correctly configuring a new *Vim* instance and outlines a progressive set of
 topics for the enthusiastic newcomer to study and practise.
 
-## Quick Install
+## 快速安装
 
-- *Linux* / *OS X* users
+- *Linux* / *OS X* 用户
 
-  Copy
-  [`doc/learnvim.txt`](http://github.com/dahu/LearnVim/raw/master/doc/learnvim.txt) to your `~/.vim/doc/` directory.
+  将
+  [`doc/learnvim.txt`](http://github.com/dahu/LearnVim/raw/master/doc/learnvim.txt) 复制到如下的文件夹下 `~/.vim/doc/`.
 
 - *Windows* users
 
-  Copy [`doc/learnvim.txt`](http://github.com/dahu/LearnVim/raw/master/doc/learnvim.txt) to your `$HOME\vimfiles\doc\` directory.
+  复制 [`doc/learnvim.txt`](http://github.com/dahu/LearnVim/raw/master/doc/learnvim.txt) 到如下文件夹下 `$HOME\vimfiles\doc\` .
 
-Type `:helptags ~/.vim/doc/` from within *Vim*.
+打开 *Vim* 并键入命令 `:helptags ~/.vim/doc/`.
 
-Type `:help learnvim` to get started.
+键入如下命令开始学习 `:help learnvim`.

@@ -19,7 +19,7 @@ Guide (|reference_toc|) and User Manual (|usr_toc|).
 
 
 ##############################################################################
-THE VIM LEARNING PATH                             *learnvim-path-overview*
+VIM 学习路线图                            *learnvim-path-overview*
 
 |learnvim-Beginner|
 |learnvim-Intermediate|
@@ -32,7 +32,7 @@ Extras~
 |learnvim-External-Resources|
 
 ##############################################################################
-BEGINNER TOPICS                                 *lv_B* *learnvim-Beginner*
+新手话题                                 *lv_B* *learnvim-Beginner*
 
 Competencies ~
 
@@ -53,55 +53,37 @@ Competencies ~
 |lv_B_IV|	创建出自己的vimrc和gvimrc配置文件。
 
 ==============================================================================
-USING HELP 使用帮助系统                                  *lv_B_I* *learnvim-Using-Help*
+使用帮助系统                                  *lv_B_I* *learnvim-Using-Help*
 
-Vim 的内部帮助系统相当强大，易于导航 is comprehensive, well indexed and easy to
-navigate.  Beginners however often have difficulty knowing what to search for
-in the first place.  Several solutions to that problem are provided here.
-First is a guided tour of how to use Vim's help system.  Second is a broader
-way to search for information within the help system.
+Vim 的内部帮助系统相当强大，并且都是有索引的，易于导航 ，但刚上手时大家一般都不知道如何去查询某一主题。
+解决办法有以下2个：
+一是使用一个向导式的教程演示如何使用 Vim 的帮助系统。二是在整个帮助系统文档中进行全文查找(还不一定能找到 (斜眼))。
 
-1. Learning how to use Vim's Help        *learnvim-essential-introduction*
 1.学习如何使用Vim的帮助文档        *learnvim-essential-introduction*
 
 To read a help topic, move your cursor to that topic and type |ctrl-]|.  To
 return to where you came from, type |ctrl-t|.  Try that now by reading the help
 for the command I showed you at the very beginning of this tutorial: |:only|.
-想要阅读某个帮助主题，只需将光标移动到主题上然后按|ctrl-]|。想要从帮助文档中返回
+想要阅读某个帮助主题，只需将光标移动到主题上然后按|ctrl-]|即可跳到对应的文档上。想要从帮助文档中返回
 到原来的位置，按|ctrl-t|。
 
-QUIZ~
 小测验~
 
 
-1. What are the two equivalent keyboard shortcuts for the |:only| command?
 1.根据刚才所学的知识，你能找出与命令 |:only| 等效的两个快捷键是什么吗?
 
-2. Do you like being quizzed on material as you're learning?
-     i. Did you know that quizes increase retention by requiring recall?
 2.你喜欢这种随学随考这种教学方式吗?
      i.你知道吗小测验可以帮助巩固已学习的知识哦
 
 
-Now continue to practice your |ctrl-]| and |ctrl-t| skills by reading the
-next three essential (and brief) help topics.  You will think I jest when I
-say that a 200 line help file is brief, but I don't actually want you to read
--all- of that file -- just the first section.  Sections are shown in red (with
-the default colour scheme) and are usually right-aligned.
 现在我们要继续加深对|ctrl-]| and |ctrl-t|的使用技能，请阅读下面3个基本的主题。
 这些文档加起来大约得有200行，但是不用全部阅读，每个主题只需读第一节即可。默认配色下，
 节使用红色字体，靠右显示。
 
-|help.txt|	A quick overview of navigating Vim's help system.  Read
-                everything in the first section - about 10 lines, and then
-		jump back here.
+		
+|help.txt|	Vim 帮助系统概览。 请仔细阅读第一节，大约只有10行，之后再跳回到这里。
 
-|help.txt|	A quick overview of navigating Vim's help system.  Read
-                everything in the first section - about 10 lines, and then
-		jump back here.
-
-		Note: that same help file is shown if you type the   |:help|
-		      command without a topic.
+		注意: 如果只输入 |:help| 后面不加任何主题的话，查看的也是这个文档(help.txt)。
 
 |help-context|	A list of topic prepositions to specify the context of your
 		help search.  Again, this is only about 10 lines long.

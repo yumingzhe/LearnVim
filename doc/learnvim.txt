@@ -116,13 +116,13 @@ you've installed pathogen, test that you've done it right by installing
 https://github.com/dahu/vim-help . Use the following to check for successul
 installation:
 
-After You Have Installed pathogen and vim-help:~
+在你安装完 pathogen 和 vim-help 之后::~
 
-1. run |:Helptags| -- it should execute silently. If you see an error like: >
+1. 运行 |:Helptags| -- 此命令会静默执行。如果遇到下面的错误: >
 
   E492: Not an editor command: Helptags
 <
-  Then you have not successfully installed pathogen. Refer again to its
+  说明你并未成功安装 pathogen。Then you have not successfully installed pathogen. Refer again to its
   installation instructions online.
 
 2. try `:help vim-help` -- it should open the help file for vim-help.

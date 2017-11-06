@@ -122,26 +122,22 @@ installation:
 
   E492: Not an editor command: Helptags
 <
-  说明你并未成功安装 pathogen。Then you have not successfully installed pathogen. Refer again to its
-  installation instructions online.
+  说明你并未成功安装 pathogen。请再次阅读联机安装文档进行排错。
 
-2. try `:help vim-help` -- it should open the help file for vim-help.
+2. 运行 `:help vim-help` -- 此命令会打开 vim-help 的帮助文件.
 
-|vim-help| eases navigation within help files. Read its help to see how.
+|vim-help| 可以让我们在帮助文档中轻松地导航. 请阅读它的帮助文档进行学习.
 ------------------------------------------------------------------------------
 
-2. Trees Within The Forest                  *learnvim-take-apart-commands*
-
-When newcomers see "complicated" commands in a Vim script or someone else's
-vimrc and try to search for them in the help system, they often fail to find
-what they're looking for.  Take for example the command sequence   gqip   to
-reformat a paragraph.  Doing   :help gqip   will return the depressing message,
-"Sorry, no help for gqip".  The problem here is in understanding Vim's command
-syntax: |gq| and |ip| are separate entities. |gq| is an operator command (one
-that takes a |motion|), whereas |ip| is a |text-object|.  The take-away here is
-this tip: Learn to 'take apart' commands you see in Vim.  See
-|learnvim-nomenclature| for more tips on recognising and understanding Vim
-elements.
+2. Trees Within The Forest                  *learnvim-take-apart-commands* 
+当新手看到 Vim 脚本或别人 vimrc
+文件中"复杂"的命令时，会尝试在帮助系统中搜索这些命令，但是一般都一无所获。比如
+gqip 这个命令是用来格式化段落的。运行 :help gqip
+命令将会返回令人失望的结果，"Sorry, no help for
+gqip"。解决这个问题的根源在于我们要理解 Vim 的命令语法：|gq| 和 |ip|
+是单独的实体。 |gq| 是一个操作命令(后接一个动作(|motion|))，而 |ip| 是一个
+文本对象(|text-object|)。所以我的建议是：学会分解你看的命令。请查看
+|learnvim-nomenclature|章节获取更多的技巧来识别和理解 Vim 元素。
 
 3. Broadening Your Search                     *learnvim-expand-help-terms*
 
